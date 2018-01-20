@@ -2,11 +2,9 @@
 (setq my-full-name "Jim Bradbury")
 (setq my-home-dir "~/")
 (menu-bar-mode 0)
+(tool-bar-mode 0)
 (setq-default column-number-mode t)
 (setq-default case-fold-search t)
-
-;; don't ever stop blinking that cursor
-(blink-cursor-mode 0)
 (setq-default cursor-type 'box)
 
 (setq ediff-split-window-function 'split-window-horizontally)
@@ -59,6 +57,7 @@
      ("\\.xsl\\'" . xsl-mode)
      ("\\.bat\\'" . batch-mode)
      ("\\.yml\\'" . yaml-mode)
+     ("\\.java\\'" . java-mode)
 ))
 
 (setq c-default-style "k&r")
@@ -69,14 +68,15 @@
 
 ;; Avy shortcuts
 ;;(global-set-key (kbd "C-:") 'avy-goto-char)
-(global-set-key (kbd "C-:") 'avy-goto-char-timer)
-(global-set-key (kbd "C-'") 'avy-goto-char-2)
-(global-set-key (kbd "M-g f") 'avy-goto-line)
-(global-set-key (kbd "M-g w") 'avy-goto-word-1)
-(global-set-key (kbd "M-g e") 'avy-goto-word-0)
-(avy-setup-default)
+;;(global-set-key (kbd "C-:") 'avy-goto-char-timer)
+;;(global-set-key (kbd "C-'") 'avy-goto-char-2)
+;;(global-set-key (kbd "M-g f") 'avy-goto-line)
+;;(global-set-key (kbd "M-g w") 'avy-goto-word-1)
+;;(global-set-key (kbd "M-g e") 'avy-goto-word-0)
+;;(avy-setup-default)
 
 ;; Open notes file by default
 (find-file (concat my-home-dir "notes.org"))
 
 (load-theme 'wombat t)
+;; (load-theme 'tango-dark)
