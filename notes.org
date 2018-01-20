@@ -23,6 +23,7 @@ Show the binding for a function                  C-h f
 Search for symbol under cursor                   M-s .
 Search for word under cursor                     M-s w
 Start dired                                      C-x d
+
 *** Dired key bindings
 Copy file                                        C
 Delete file                                      D
@@ -30,48 +31,14 @@ Rename file                                      R
 Touch file                                       T
 Run operation on next N files                    N <operation>
 
-* Repositories
-
-** Sara's symfun + simulink + sockets sandbox
-   https://svn.bose.com/asd/UA_CARS/Gates/core/branches/sara_adkins_symfun_sandbox
-** Sara's Talaria win harness virtual amp
-   https://svn.bose.com/asd/AdvancedDevelopment/Talaria_ADSP-SC58x_EZ-Kit/branches/winharness_sara_ASIO_PA
-** The virtual amp core
-   https://svn.bose.com/asd/AdvancedDevelopment/Eden/trunk
-** BDSP branch for Talaria dev
-   https://svn.bose.com/asd/BDSP_Toolbox/branches/BDSP_000686_Talaria_branch/
-** Talaria project on ez-kit
-   https://svn.bose.com/asd/AdvancedDevelopment/Talaria_ADSP-SC58x_EZ-Kit/trunk
-
+** Org mode
+Open a link                                      C-c C-o
+Edit a link                                      C-c C-L
 
 * Windows keyboard shortcuts
-** Win + Pause/Break -> bring up computer info (name, env vars)
-** Win + R           -> go to run box
-** Win + Tab         -> Zoom out and show all open windows
+Win + Pause/Break -> bring up computer info (name, env vars)
+Win + R           -> go to run box
+Win + Tab         -> Zoom out and show all open windows
 
-* Tasks left for Talaria
-** Finish multi-core work
-*** How to get benchmarking info into partitioner
-*** Use MRA or something else?
-*** Integration w/ framework (e.g. ping pongs, DMAs)
-*** Synchronization buffers
-** Room mode changes
-*** Finalize plans for all hooks that need to be in place
-*** Make sure everything is resettable
-*** Test _something_
-** Upgrade to 2017B
-** Test with basic persona
-*** multi-core, multi-rate
-*** mode change
-*** spetter hw
-*** tie in RTC
-*** Medusa?
-*** Symfun on canvas?
-*** Virtual amp testing?
 
-* DP1 branch
-** Simulink build does not happen automatically via make
-** where is latest virtual amp
-** Model name passed to partiation_and_generate() need to match case. Works at first, fails later
-** Make installing virtual amp easier
-
+[[file:work.org][work notes]]
