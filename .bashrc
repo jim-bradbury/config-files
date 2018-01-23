@@ -56,7 +56,7 @@ fi
 # Set the shell prompt format+color
 if [ $TERM == "dumb" ]; then
     PS1='\n\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ '
-    LS_COLORS='di=34'
+    export LS_COLORS='di=34'
 else
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 fi
