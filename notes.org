@@ -40,5 +40,19 @@ Win + Pause/Break -> bring up computer info (name, env vars)
 Win + R           -> go to run box
 Win + Tab         -> Zoom out and show all open windows
 
+* Gmail keyboard shortcuts
+Compose mail                                     C
+Compose mail in new tab                          D
+Navigate up/down in the inbox                    J/K
+Navigate up/down in a conversation               N/P
+Select all unread messages                       * + u
+Archive selected message                         e
+Delete selected message                          #
+Mark selected message as important               =
+Reply                                            r
+Reply all                                        a
+Jump to inbox view                               u
+Jump to next tab                                 `
+Jump to previous tab                             ~
 
 [[file:work.org][work notes]]
