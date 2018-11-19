@@ -16,12 +16,16 @@ avy-goto-word-0                                  M-g e
 Comment region                                   M-;
 downcase region                                  C-x C-l
 uppercase region                                 C-x C-u
+downcase word                                    M-l
+uppercase word                                   M-u
 
 ** General
 Show what function a keybinding is mapped to     C-h k
 Show the binding for a function                  C-h f
 Search for symbol under cursor                   M-s .
 Search for word under cursor                     M-s w
+Count lines, words, chars                        M-=
+Regex search                                     C-M-s/r
 Start dired                                      C-x d
 
 *** Dired key bindings
@@ -39,6 +43,9 @@ Edit a link                                      C-c C-L
 Win + Pause/Break -> bring up computer info (name, env vars)
 Win + R           -> go to run box
 Win + Tab         -> Zoom out and show all open windows
+
+* Chrome keyboard shortcuts
+Switch focus (page, bookmarks, address bar)      F6 (Shift F6)
 
 * Gmail keyboard shortcuts
 Compose mail                                     C
